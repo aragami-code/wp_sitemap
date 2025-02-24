@@ -1,0 +1,24 @@
+* html .s-mb-log {
+	height: expression( this.scrollHeight > 200 ? "200px" : "auto" );
+}
+
+.s-mb-log {
+	/* width: 72%; */
+	margin-top: 1.5em;
+
+	font-size: 0.95em;
+	background-color: #ffffff;
+	padding: 5px 10px; padding-top: 0px;
+
+	border: 1px solid #cccccc;
+	overflow: auto;
+}
+
+.s-mb-log-big {
+	max-height: 600px;
+	min-height: 500px;
+}
+
+.s-mb-log-small {
+	max-height: 200px;
+}
